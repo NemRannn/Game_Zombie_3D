@@ -1,12 +1,9 @@
 using System;
 
-namespace DummyNamespace
+public class Dummy
 {
-    public class Dummy
+    public void DisplayMessage()
     {
-        public void DummyMethod()
-        {
-            Console.WriteLine("This is a dummy class to indicate C#.");
-        }
+        Console.WriteLine("This is a dummy C# file for GitHub.");
     }
 }
